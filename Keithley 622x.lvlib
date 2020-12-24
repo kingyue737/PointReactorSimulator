@@ -82,8 +82,8 @@
 			</Item>
 			<Item Name="KE622x -- Get Voltage Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Source/KE622x -- Get Voltage Limit.vi"/>
 			<Item Name="KE622x -- Set Voltage Limit.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Voltage Limit.vi"/>
-			<Item Name="KE622x -- Get Current Range.vi" Type="VI" URL="../Configure/Source/KE622x -- Get Current Range.vi"/>
-			<Item Name="KE622x -- Set Current Range.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Current Range.vi"/>
+			<Item Name="KE622x -- Get Current Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Source/KE622x -- Get Current Range.vi"/>
+			<Item Name="KE622x -- Set Current Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Source/KE622x -- Set Current Range.vi"/>
 			<Item Name="KE622x -- Get Source Delay.vi" Type="VI" URL="../Configure/Source/KE622x -- Get Source Delay.vi"/>
 			<Item Name="KE622x -- Set Source Delay.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Source Delay.vi"/>
 			<Item Name="KE622x -- Get Analog Filter State.vi" Type="VI" URL="../Configure/Source/KE622x -- Get Analog Filter State.vi"/>
@@ -92,9 +92,9 @@
 			<Item Name="KE622x -- Set Current Level.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Current Level.vi"/>
 			<Item Name="KE622x -- Get Lin Log Sweep Params.vi" Type="VI" URL="../Configure/Source/KE622x -- Get Lin Log Sweep Params.vi"/>
 			<Item Name="KE622x -- Set Lin Log Sweep Params.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Lin Log Sweep Params.vi"/>
-			<Item Name="KE622x -- Get List Sweep Steps.vi" Type="VI" URL="../Configure/Source/KE622x -- Get List Sweep Steps.vi"/>
-			<Item Name="KE622x -- Set List Sweep Steps.vi" Type="VI" URL="../Configure/Source/KE622x -- Set List Sweep Steps.vi"/>
-			<Item Name="KE622x -- Get List Sweep Params.vi" Type="VI" URL="../Configure/Source/KE622x -- Get List Sweep Params.vi"/>
+			<Item Name="KE622x -- Get List Sweep Steps.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Source/KE622x -- Get List Sweep Steps.vi"/>
+			<Item Name="KE622x -- Set List Sweep Steps.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Source/KE622x -- Set List Sweep Steps.vi"/>
+			<Item Name="KE622x -- Get List Sweep Params.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Source/KE622x -- Get List Sweep Params.vi"/>
 			<Item Name="KE622x -- Set List Sweep Params.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Source/KE622x -- Set List Sweep Params.vi"/>
 			<Item Name="KE622x -- Get Sweep Type.vi" Type="VI" URL="../Configure/Source/KE622x -- Get Sweep Type.vi"/>
 			<Item Name="KE622x -- Set Sweep Type.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Sweep Type.vi"/>
@@ -209,18 +209,18 @@
 					<Item Name="KE622x -- Trig Output Mode.ctl" Type="VI" URL="../Configure/Trigger/Low Level/Typedefs/KE622x -- Trig Output Mode.ctl"/>
 					<Item Name="KE622x -- Arm Timer Interval.ctl" Type="VI" URL="../Configure/Trigger/Low Level/Typedefs/KE622x -- Arm Timer Interval.ctl"/>
 				</Item>
-				<Item Name="KE622x -- Get Arm Source.vi" Type="VI" URL="../Configure/Trigger/Low Level/KE622x -- Get Arm Source.vi"/>
-				<Item Name="KE622x -- Set Arm Source.vi" Type="VI" URL="../Configure/Trigger/Low Level/KE622x -- Set Arm Source.vi"/>
-				<Item Name="KE622x -- Get Arm Timer Interval.vi" Type="VI" URL="../Configure/Trigger/Low Level/KE622x -- Get Arm Timer Interval.vi"/>
-				<Item Name="KE622x -- Set Arm Timer Interval.vi" Type="VI" URL="../Configure/Trigger/Low Level/KE622x -- Set Arm Timer Interval.vi"/>
-				<Item Name="KE622x -- Get Arm Output Mode.vi" Type="VI" URL="../Configure/Trigger/Low Level/KE622x -- Get Arm Output Mode.vi"/>
+				<Item Name="KE622x -- Get Arm Source.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Get Arm Source.vi"/>
+				<Item Name="KE622x -- Set Arm Source.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Set Arm Source.vi"/>
+				<Item Name="KE622x -- Get Arm Timer Interval.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Get Arm Timer Interval.vi"/>
+				<Item Name="KE622x -- Set Arm Timer Interval.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Set Arm Timer Interval.vi"/>
+				<Item Name="KE622x -- Get Arm Output Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Get Arm Output Mode.vi"/>
 				<Item Name="KE622x -- Set Arm Output Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Set Arm Output Mode.vi"/>
 				<Item Name="KE622x -- Get Arm Bypass State.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Get Arm Bypass State.vi"/>
-				<Item Name="KE622x -- Set Arm Bypass State.vi" Type="VI" URL="../Configure/Trigger/Low Level/KE622x -- Set Arm Bypass State.vi"/>
+				<Item Name="KE622x -- Set Arm Bypass State.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Set Arm Bypass State.vi"/>
 				<Item Name="KE622x -- Get Arm Input Line.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Get Arm Input Line.vi"/>
-				<Item Name="KE622x -- Set Arm Input Line.vi" Type="VI" URL="../Configure/Trigger/Low Level/KE622x -- Set Arm Input Line.vi"/>
-				<Item Name="KE622x -- Get Arm Output Line.vi" Type="VI" URL="../Configure/Trigger/Low Level/KE622x -- Get Arm Output Line.vi"/>
-				<Item Name="KE622x -- Set Arm Output Line.vi" Type="VI" URL="../Configure/Trigger/Low Level/KE622x -- Set Arm Output Line.vi"/>
+				<Item Name="KE622x -- Set Arm Input Line.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Set Arm Input Line.vi"/>
+				<Item Name="KE622x -- Get Arm Output Line.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Get Arm Output Line.vi"/>
+				<Item Name="KE622x -- Set Arm Output Line.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Set Arm Output Line.vi"/>
 				<Item Name="KE622x -- Get Trig Source.vi" Type="VI" URL="../Configure/Trigger/Low Level/KE622x -- Get Trig Source.vi"/>
 				<Item Name="KE622x -- Set Trig Source.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Set Trig Source.vi"/>
 				<Item Name="KE622x -- Get Trig Bypass State.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Low Level/KE622x -- Get Trig Bypass State.vi"/>
@@ -238,7 +238,7 @@
 				<Item Name="KE6220 -- Arm Trig Params.ctl" Type="VI" URL="../Configure/Trigger/Typedefs/KE6220 -- Arm Trig Params.ctl"/>
 				<Item Name="KE6221 -- Arm Trig Wave Trig Params.ctl" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/Typedefs/KE6221 -- Arm Trig Wave Trig Params.ctl"/>
 			</Item>
-			<Item Name="KE622x -- Get Arm Layer Params.vi" Type="VI" URL="../Configure/Trigger/KE622x -- Get Arm Layer Params.vi"/>
+			<Item Name="KE622x -- Get Arm Layer Params.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/KE622x -- Get Arm Layer Params.vi"/>
 			<Item Name="KE622x -- Set Arm Layer Params.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Trigger/KE622x -- Set Arm Layer Params.vi"/>
 			<Item Name="KE622x -- Get Trig Layer Params.vi" Type="VI" URL="../Configure/Trigger/KE622x -- Get Trig Layer Params.vi"/>
 			<Item Name="KE622x -- Set Trig Layer Params.vi" Type="VI" URL="../Configure/Trigger/KE622x -- Set Trig Layer Params.vi"/>
