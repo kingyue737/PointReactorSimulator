@@ -82,8 +82,8 @@
 			</Item>
 			<Item Name="KE622x -- Get Voltage Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Source/KE622x -- Get Voltage Limit.vi"/>
 			<Item Name="KE622x -- Set Voltage Limit.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Voltage Limit.vi"/>
-			<Item Name="KE622x -- Get Current Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Source/KE622x -- Get Current Range.vi"/>
-			<Item Name="KE622x -- Set Current Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Configure/Source/KE622x -- Set Current Range.vi"/>
+			<Item Name="KE622x -- Get Current Range.vi" Type="VI" URL="../Configure/Source/KE622x -- Get Current Range.vi"/>
+			<Item Name="KE622x -- Set Current Range.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Current Range.vi"/>
 			<Item Name="KE622x -- Get Source Delay.vi" Type="VI" URL="../Configure/Source/KE622x -- Get Source Delay.vi"/>
 			<Item Name="KE622x -- Set Source Delay.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Source Delay.vi"/>
 			<Item Name="KE622x -- Get Analog Filter State.vi" Type="VI" URL="../Configure/Source/KE622x -- Get Analog Filter State.vi"/>
