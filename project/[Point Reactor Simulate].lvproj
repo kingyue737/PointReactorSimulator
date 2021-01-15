@@ -331,7 +331,7 @@
 				<Property Name="Destination[1].path" Type="Path">/E/反应性仪测试软件/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5FD07C43-9DD1-430E-8EE4-8606E3EE5B3E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5CDC8705-9F9C-4A6F-80F0-1C743715A000}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/[Point Reactor Simulate].vi</Property>
@@ -511,7 +511,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">反应性仪测试软件.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">反应性仪测试软件</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">核星数字反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">核星反应性仪测试软件</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">反应性仪测试软件</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
@@ -537,19 +537,10 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[4].name" Type="Str">微电流源校准文件2.dat</Property>
 				<Property Name="Source[4].tag" Type="Ref">/我的电脑/微电流源校准文件2.dat</Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
-				<Property Name="Source[5].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
 				<Property Name="Source[5].File[0].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
 				<Property Name="Source[5].File[0].name" Type="Str">测试软件物理参数设置.exe</Property>
-				<Property Name="Source[5].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[5].File[0].Shortcut[0].name" Type="Str">测试软件物理参数设置</Property>
-				<Property Name="Source[5].File[0].Shortcut[0].subDir" Type="Str">反应性仪测试软件</Property>
-				<Property Name="Source[5].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[5].File[0].tag" Type="Str">{0E6E821E-5CF7-41C5-A52E-F4FB3AC25144}</Property>
-				<Property Name="Source[5].FileCount" Type="Int">1</Property>
-				<Property Name="Source[5].name" Type="Str">测试软件物理参数设置</Property>
-				<Property Name="Source[5].tag" Type="Ref">/我的电脑/程序生成规范/测试软件物理参数设置</Property>
-				<Property Name="Source[5].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="反应性仪测试软件安装包(无依赖)" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">核星反应性仪测试软件</Property>
@@ -588,7 +579,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">反应性仪测试软件.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">反应性仪测试软件</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">核星数字反应性仪</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">核星反应性仪测试软件</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">反应性仪测试软件</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
@@ -614,19 +605,10 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[4].name" Type="Str">微电流源校准文件2.dat</Property>
 				<Property Name="Source[4].tag" Type="Ref">/我的电脑/微电流源校准文件2.dat</Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
-				<Property Name="Source[5].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
 				<Property Name="Source[5].File[0].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
 				<Property Name="Source[5].File[0].name" Type="Str">测试软件物理参数设置.exe</Property>
-				<Property Name="Source[5].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[5].File[0].Shortcut[0].name" Type="Str">测试软件物理参数设置</Property>
-				<Property Name="Source[5].File[0].Shortcut[0].subDir" Type="Str">反应性仪测试软件</Property>
-				<Property Name="Source[5].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[5].File[0].tag" Type="Str">{0E6E821E-5CF7-41C5-A52E-F4FB3AC25144}</Property>
-				<Property Name="Source[5].FileCount" Type="Int">1</Property>
-				<Property Name="Source[5].name" Type="Str">测试软件物理参数设置</Property>
-				<Property Name="Source[5].tag" Type="Ref">/我的电脑/程序生成规范/测试软件物理参数设置</Property>
-				<Property Name="Source[5].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="反应性仪测试软件旧安装包" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">EIP型反应性仪测试软件</Property>
