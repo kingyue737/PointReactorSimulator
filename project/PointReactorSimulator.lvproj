@@ -10,9 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="[Point Reactor Simulate].vi" Type="VI" URL="../../[Point Reactor Simulate].vi"/>
-		<Item Name="MB Ethernet Slave Demon.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet Slave Demon.vi"/>
-		<Item Name="点堆模拟机物理参数设置.vi" Type="VI" URL="../../点堆模拟机物理参数设置.vi"/>
+		<Item Name="outputSettings.vi" Type="VI" URL="../../outputSettings.vi"/>
+		<Item Name="physicalSettings.vi" Type="VI" URL="../../physicalSettings.vi"/>
+		<Item Name="pointReactorSimulator.vi" Type="VI" URL="../../pointReactorSimulator.vi"/>
 		<Item Name="堆物理参数文件.dat" Type="Document" URL="../../堆物理参数文件.dat"/>
 		<Item Name="核电站控制棒模拟.txt" Type="Document" URL="../../核电站控制棒模拟.txt"/>
 		<Item Name="微电流源校准文件1.dat" Type="Document" URL="../../微电流源校准文件1.dat"/>
@@ -188,7 +188,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -204,8 +203,6 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
-				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -217,20 +214,7 @@
 			</Item>
 			<Item Name="Keithley 622x.lvlib" Type="Library" URL="../../Keithley 622x.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MB Ethernet Call Wait on Query.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet Call Wait on Query.vi"/>
-			<Item Name="MB Ethernet Check Client.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet Check Client.vi"/>
-			<Item Name="MB Ethernet Connection Function.ctl" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet Connection Function.ctl"/>
-			<Item Name="MB Ethernet Connection Manager.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet Connection Manager.vi"/>
-			<Item Name="MB Ethernet Is Address Valid.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet Is Address Valid.vi"/>
-			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet Receive.vi"/>
-			<Item Name="MB Ethernet RefCount.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet RefCount.vi"/>
-			<Item Name="MB Ethernet Slave Communication.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet Slave Communication.vi"/>
-			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet String to Modbus Data Unit.vi"/>
-			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet Transmit.vi"/>
-			<Item Name="MB Ethernet Wait on Query.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Ethernet Wait on Query.vi"/>
 			<Item Name="MB Globals.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Globals.vi"/>
-			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../../TcpModbus_SlaveServer/MB Modbus Data Unit.ctl"/>
-			<Item Name="MB RefCount Function.ctl" Type="VI" URL="../../TcpModbus_SlaveServer/MB RefCount Function.ctl"/>
 			<Item Name="MB Registers Manager.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Registers Manager.vi"/>
 			<Item Name="MB Slave Init (poly).vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Slave Init (poly).vi"/>
 			<Item Name="MB Slave Operations (poly).vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Slave Operations (poly).vi"/>
@@ -246,64 +230,13 @@
 			<Item Name="MB Slave Write Discrete Inputs (poly).vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Slave Write Discrete Inputs (poly).vi"/>
 			<Item Name="MB Slave Write Holding Registers (poly).vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Slave Write Holding Registers (poly).vi"/>
 			<Item Name="MB Slave Write Input Registers (poly).vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Slave Write Input Registers (poly).vi"/>
-			<Item Name="MB Update Registers.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Update Registers.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OutSettings1.vi" Type="VI" URL="../../OutSettings1.vi"/>
 			<Item Name="PointReactorDll.dll" Type="Document" URL="../../PointReactorDll.dll"/>
 			<Item Name="Sti_Switch.vi" Type="VI" URL="../../Sti_Switch.vi"/>
-			<Item Name="Voltage2Current.vi" Type="VI" URL="../../Voltage2Current.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="测试软件物理参数设置" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{194E6737-E21C-477E-9B46-FF641929DE3A}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{9EA8B362-8E0A-476E-8430-00FF0A23198D}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{16F95CE8-744B-4E2F-A8A5-E3BA112DF475}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">测试软件物理参数设置</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/E/测试软件物理参数设置</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{14F5FCB8-C58D-479C-8608-710B5ED7EFEE}</Property>
-				<Property Name="Bld_supportedLanguage[0]" Type="Str">ChineseS</Property>
-				<Property Name="Bld_supportedLanguage[1]" Type="Str">English</Property>
-				<Property Name="Bld_supportedLanguageCount" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">测试软件物理参数设置.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/E/测试软件物理参数设置/测试软件物理参数设置.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">/E/测试软件物理参数设置/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5FD07C43-9DD1-430E-8EE4-8606E3EE5B3E}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/[Point Reactor Simulate].vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/MB Ethernet Slave Demon.vi</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/点堆模拟机物理参数设置.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="TgtF_companyName" Type="Str">核星核电科技(海盐)有限公司</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">反应性仪测试软件,用于测试或演示HXH革新型反应性仪。</Property>
-				<Property Name="TgtF_internalName" Type="Str">反应性仪测试软件物理参数设置</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">版权所有 2021 核星核电科技(海盐)有限公司</Property>
-				<Property Name="TgtF_productName" Type="Str">反应性仪测试软件物理参数设置</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{0E6E821E-5CF7-41C5-A52E-F4FB3AC25144}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">测试软件物理参数设置.exe</Property>
-			</Item>
 			<Item Name="反应性仪测试软件" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{5B3512B6-1DCC-4727-A75D-81C9967DB477}</Property>
@@ -331,19 +264,15 @@
 				<Property Name="Destination[1].path" Type="Path">/E/反应性仪测试软件/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5CDC8705-9F9C-4A6F-80F0-1C743715A000}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{836F4DE1-1BD1-4E9B-95E9-99F752EB857C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/[Point Reactor Simulate].vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/pointReactorSimulator.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/MB Ethernet Slave Demon.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">核星核电科技(海盐)有限公司</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">反应性仪测试软件,用于测试或演示HXH革新型反应性仪。</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">反应性仪测试软件,用于测试及演示iRho-100型反应性仪。</Property>
 				<Property Name="TgtF_internalName" Type="Str">反应性仪测试软件</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权所有 2021 核星核电科技(海盐)有限公司</Property>
 				<Property Name="TgtF_productName" Type="Str">反应性仪测试软件</Property>
@@ -380,11 +309,11 @@
 				<Property Name="Source[0].itemID" Type="Str">{9E8DA98D-E718-4400-89B3-B0255E2FB38D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/[Point Reactor Simulate].vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/pointReactorSimulator.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/MB Ethernet Slave Demon.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
@@ -609,118 +538,6 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[5].File[0].name" Type="Str">测试软件物理参数设置.exe</Property>
 				<Property Name="Source[5].File[0].tag" Type="Str">{0E6E821E-5CF7-41C5-A52E-F4FB3AC25144}</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
-			</Item>
-			<Item Name="反应性仪测试软件旧安装包" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">EIP型反应性仪测试软件</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[0].unlock" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{9B1296BE-6823-4A4E-9F79-F2ACED5EC8F9}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2020</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{7D64A463-C3C9-40B6-BC46-4DD7D0DE2BFD}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">LabVIEW 2011运行引擎非英语语言支持。</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{C18B7B2D-1490-40E1-A41E-6EFB0BE3246D}</Property>
-				<Property Name="DistPart[10].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[10].productID" Type="Str">{033FCC8C-A828-4B93-A8F8-CF0760BB0233}</Property>
-				<Property Name="DistPart[10].productName" Type="Str">NI-DAQmx 应用程序开发支持 9.5</Property>
-				<Property Name="DistPart[10].upgradeCode" Type="Str">{DBA9D0BD-729E-494F-AFA2-0BA464B875C2}</Property>
-				<Property Name="DistPart[11].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[11].productID" Type="Str">{85BA3FCF-AA00-4151-B97D-84A221E8198A}</Property>
-				<Property Name="DistPart[11].productName" Type="Str">NI-VISA Runtime 5.0.3</Property>
-				<Property Name="DistPart[11].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[12].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[12].productID" Type="Str">{FDED748C-432B-4B44-BB33-3BB8550A2AD2}</Property>
-				<Property Name="DistPart[12].productName" Type="Str">NI变量引擎2.5.0</Property>
-				<Property Name="DistPart[12].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
-				<Property Name="DistPart[13].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[13].productID" Type="Str">{E0C32607-2DD4-4124-9A74-351D135FAD4B}</Property>
-				<Property Name="DistPart[13].productName" Type="Str">NI分布式系统管理器2010</Property>
-				<Property Name="DistPart[13].upgradeCode" Type="Str">{96404834-D484-4B24-AF79-C4D2F1A0CF12}</Property>
-				<Property Name="DistPart[14].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[14].productID" Type="Str">{FB289FBF-EBF2-4510-A2C9-D79D986AECBE}</Property>
-				<Property Name="DistPart[14].productName" Type="Str">NI系统配置运行时 5.1.0</Property>
-				<Property Name="DistPart[14].upgradeCode" Type="Str">{0E192465-CC28-4C84-BE81-710B71C595A3}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{21EF2C48-A06F-4001-8E0B-72DCA779860F}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI DataSocket 4.8</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{81A7E53E-9524-41CE-90D3-7DD3D90B6C58}</Property>
-				<Property Name="DistPart[3].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{9BF9F0A2-2CF9-4165-9A36-639381F54BE3}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI I/O Trace 3.0.0</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{B87BCB47-3C93-11D4-88E6-0008C7C25519}</Property>
-				<Property Name="DistPart[4].flavorID" Type="Str">_required_</Property>
-				<Property Name="DistPart[4].productID" Type="Str">{105271B2-81E8-4C84-B820-590BFBC5F958}</Property>
-				<Property Name="DistPart[4].productName" Type="Str">NI IVI组件包4.4.0</Property>
-				<Property Name="DistPart[4].upgradeCode" Type="Str">{7F99DDE8-6E52-443B-8938-EDBF54C6D28B}</Property>
-				<Property Name="DistPart[5].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[5].productID" Type="Str">{49C6FE81-CE63-4B49-A295-7A10B96D36CD}</Property>
-				<Property Name="DistPart[5].productName" Type="Str">NI LabVIEW部署版许可证2010</Property>
-				<Property Name="DistPart[5].upgradeCode" Type="Str">{F0881D07-B74D-484D-A43D-5602697AC76D}</Property>
-				<Property Name="DistPart[6].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[6].productID" Type="Str">{AA3A8F0A-B26A-4D95-86FD-53827DB4D058}</Property>
-				<Property Name="DistPart[6].productName" Type="Str">NI Measurement &amp; Automation Explorer 5.1</Property>
-				<Property Name="DistPart[6].upgradeCode" Type="Str">{AE940F24-CC0E-4148-9A96-10FB04D9796D}</Property>
-				<Property Name="DistPart[7].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[7].productID" Type="Str">{8DA7D661-2184-4B78-8220-73F9878E9992}</Property>
-				<Property Name="DistPart[7].productName" Type="Str">NI USI 1.8.0</Property>
-				<Property Name="DistPart[7].upgradeCode" Type="Str">{D1EDC484-7B17-11D7-83CE-00C0F03EBEBE}</Property>
-				<Property Name="DistPart[8].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[8].productID" Type="Str">{2C93A7B7-E6E1-4C7B-B29E-89DBC66C2FA8}</Property>
-				<Property Name="DistPart[8].productName" Type="Str">NI-DAQmx MAX配置支持 9.5</Property>
-				<Property Name="DistPart[8].upgradeCode" Type="Str">{9856368A-ED47-4944-87BE-8EF3472AE39B}</Property>
-				<Property Name="DistPart[9].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[9].productID" Type="Str">{BF65A43C-18D6-4B58-BF89-D64CB06A6711}</Property>
-				<Property Name="DistPart[9].productName" Type="Str">NI-DAQmx 核心运行时 9.5</Property>
-				<Property Name="DistPart[9].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
-				<Property Name="DistPartCount" Type="Int">15</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/E/EIP型反应性仪测试软件SETUP包</Property>
-				<Property Name="INST_buildSpecName" Type="Str">反应性仪测试软件旧安装包</Property>
-				<Property Name="INST_defaultDir" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
-				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
-				<Property Name="INST_language" Type="Int">2052</Property>
-				<Property Name="INST_productName" Type="Str">EIP型反应性仪测试软件</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
-				<Property Name="MSI_arpCompany" Type="Str">北京芯核电子科技有限责任公司</Property>
-				<Property Name="MSI_arpContact" Type="Str">master@eipcore.com</Property>
-				<Property Name="MSI_arpPhone" Type="Str">15910783086   010-60337786</Property>
-				<Property Name="MSI_arpURL" Type="Str">www.eipcore.com</Property>
-				<Property Name="MSI_distID" Type="Str">{159F9A9C-739F-4D81-A790-A1F03871FE9D}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{83C886CA-2703-45D4-A394-1096EDDF2789}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">EIP型反应性仪测试系统
-
-北京芯核电子科技有限公司
-
-www.eipcore.com     TEL:15910783086</Property>
-				<Property Name="MSI_windowTitle" Type="Str">欢迎使用EIP型反应性仪测试系统</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">反应性仪测试软件.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">EIP型反应性仪测试软件</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">EIP型反应性仪测试软件</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">EIP型反应性仪测试软件</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{BF14856D-B176-4913-95CA-64FEEB8EC193}</Property>
-				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">反应性仪测试软件</Property>
-				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/反应性仪测试软件</Property>
-				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
