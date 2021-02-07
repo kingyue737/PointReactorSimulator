@@ -212,7 +212,7 @@
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Keithley 622x.lvlib" Type="Library" URL="../../Keithley 622x.lvlib"/>
+			<Item Name="Keithley 622x.lvlib" Type="Library" URL="../../Keithley 622x/Keithley 622x.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB Globals.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Globals.vi"/>
 			<Item Name="MB Registers Manager.vi" Type="VI" URL="../../TcpModbus_SlaveServer/MB Registers Manager.vi"/>
