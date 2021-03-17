@@ -12,14 +12,17 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MB Ethernet Slave Demon.vi" Type="VI" URL="../src/TcpModbus_SlaveServer/MB Ethernet Slave Demon.vi"/>
 		<Item Name="outputSettings.vi" Type="VI" URL="../src/outputSettings.vi"/>
-		<Item Name="physicalSettings.vi" Type="VI" URL="../src/physicalSettings.vi"/>
+		<Item Name="PhysicsDialog.vi" Type="VI" URL="../src/PhysicsDialog.vi"/>
 		<Item Name="pointReactorSimulator.vi" Type="VI" URL="../src/pointReactorSimulator.vi"/>
-		<Item Name="堆物理参数文件.dat" Type="Document" URL="../堆物理参数文件.dat"/>
+		<Item Name="ReadPhysicsSettings.vi" Type="VI" URL="../src/ReadPhysicsSettings.vi"/>
+		<Item Name="SettingVariable.vi" Type="VI" URL="../src/SettingVariable.vi"/>
 		<Item Name="核电站控制棒模拟.txt" Type="Document" URL="../核电站控制棒模拟.txt"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
@@ -190,6 +193,8 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
@@ -199,6 +204,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
@@ -681,7 +687,7 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
 				<Property Name="Source[1].name" Type="Str">堆物理参数文件.dat</Property>
-				<Property Name="Source[1].tag" Type="Ref">/我的电脑/堆物理参数文件.dat</Property>
+				<Property Name="Source[1].tag" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
 				<Property Name="Source[2].name" Type="Str">核电站控制棒模拟.txt</Property>
