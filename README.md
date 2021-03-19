@@ -1,2 +1,2 @@
-# iRho-100 Reactivity Meter
-iRho-100 Reactivity Meter is the upper computer software of [Nustar Nuclear](http://www.nustarnuclear.com/)'s instrument of the same name.
+# NuStar Point Reactor Simulator
+Testing software for [NuStar Nuclear](http://www.nustarnuclear.com/) iRho-100 Reactivity Meter.
