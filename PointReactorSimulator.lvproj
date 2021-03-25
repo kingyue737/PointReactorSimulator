@@ -14,8 +14,8 @@
 		<Item Name="PhysicsDialog.vi" Type="VI" URL="../src/PhysicsDialog.vi"/>
 		<Item Name="pointReactorSimulator.vi" Type="VI" URL="../src/pointReactorSimulator.vi"/>
 		<Item Name="ReadPhysicsSettings.vi" Type="VI" URL="../src/ReadPhysicsSettings.vi"/>
+		<Item Name="rodValue.txt" Type="Document" URL="../rodValue.txt"/>
 		<Item Name="SettingVariable.vi" Type="VI" URL="../src/SettingVariable.vi"/>
-		<Item Name="核电站控制棒模拟.txt" Type="Document" URL="../核电站控制棒模拟.txt"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -680,17 +680,13 @@ www.nustarnuclear.com</Property>
 				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/反应性仪测试软件</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
-				<Property Name="Source[1].name" Type="Str">堆物理参数文件.dat</Property>
-				<Property Name="Source[1].tag" Type="Ref"></Property>
+				<Property Name="Source[1].name" Type="Str">rodValue.txt</Property>
+				<Property Name="Source[1].tag" Type="Ref">/我的电脑/rodValue.txt</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
-				<Property Name="Source[2].name" Type="Str">核电站控制棒模拟.txt</Property>
-				<Property Name="Source[2].tag" Type="Ref">/我的电脑/核电站控制棒模拟.txt</Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[5].File[0].dest" Type="Str">{2DC7144D-EAB0-4B17-BFD4-EF0492ACAA81}</Property>
 				<Property Name="Source[5].File[0].name" Type="Str">测试软件物理参数设置.exe</Property>
 				<Property Name="Source[5].File[0].tag" Type="Str">{0E6E821E-5CF7-41C5-A52E-F4FB3AC25144}</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
