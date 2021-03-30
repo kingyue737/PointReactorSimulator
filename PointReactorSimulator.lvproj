@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="analogSettings.vi" Type="VI" URL="../src/analogSettings.vi"/>
+		<Item Name="endianSwitch.vi" Type="VI" URL="../src/endianSwitch.vi"/>
 		<Item Name="PhysicsDialog.vi" Type="VI" URL="../src/PhysicsDialog.vi"/>
 		<Item Name="pointReactorSimulator.vi" Type="VI" URL="../src/pointReactorSimulator.vi"/>
 		<Item Name="ReadPhysicsSettings.vi" Type="VI" URL="../src/ReadPhysicsSettings.vi"/>
